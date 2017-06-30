@@ -9,20 +9,24 @@
   <body>
     <header>
       <nav>
-        <ul>
-          <a id="logo" href="#" ></a>
-          <li><a href="index.html">Home</a></li>
-          <li><a href="about.html">About</a></li>
-          <li><a href="newsletter.html">Newsletter</a></li>
-        </ul>
+          <a href="#" id="logo"><img src="./images/bent-creek-logo.png" alt=""></a>
+          <a href="index.html">Home</a>
+          <a href="about.html">About</a>
+          <a href="newsletter.html">Newsletter</a>
       </nav>
     </header>
-    <section>
-      <h1>Sign Up for Our Weekly Newsletter</h1>
-      <h3>Stay up to date with events, activities, news and specials.</h3>
+    <section class="newsletter-wrapper">
+      <div class=signup>
+        <h1>Sign Up for Our Weekly Newsletter</h1>
+        <h3>Stay up to date with events, activities, news and specials.</h3>
+        <form class="signup" action="index.html" method="post">
+          <input type="text" name="name" value="Name">
+          <br>
+          <input type="email" name="email" value="Email">
+          <br>
+          <button type="button" name="submit">Submit</button>
+        </form>
+      </div>
     </section>
-    <footer>
-      <p>Copyright 2017, Bent Creek Ceramics</p>
-    </footer>
   </body>
 </html>
