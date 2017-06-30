@@ -19,6 +19,8 @@ Input Border Bottom (Focus): #967343 */
 
 body {
   margin: 0px;
+  font-family: 'Merriweather',serif;
+  font-family: 'Roboto', sans-serif;
 }
 .wrapper{
   display: flex;
@@ -31,15 +33,35 @@ body {
   padding:.5em;
 
 }
+.content{
+  display:flex;
+  justify-content: center;
+  flex-wrap:wrap;
+  align-items: center;
+  padding:.5em;
+
+}
 .content2{
   display:flex;
   justify-content: center;
   flex-wrap: nowrap;
 
 }
-.gallery {
+.large-thin-image>img{
+  max-width: 20%;
+  max-height: 40%;
+}
+.large-wide-image>img{
   max-width: 50%;
-  max-height: 50%;
+  max-height: 40%;
+}
+.small-thin-image>img{
+  max-width: 20%;
+  max-height: 20%;
+}
+.small-wide-image>img{
+  max-width: 30%;
+  max-height: 20%;
 }
 .section-header-image{
   background-image: url("./images/background-3.jpg");
@@ -52,4 +74,9 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+aside img {
+  max-width: 20%;
+  max-height: 20%;
 }
