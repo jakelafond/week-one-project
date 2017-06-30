@@ -16,3 +16,40 @@ Button Text: #F2F1E8
 Button Text (Hover): #FFFFFF
 Input Border Bottom: #968772
 Input Border Bottom (Focus): #967343 */
+
+body {
+  margin: 0px;
+}
+.wrapper{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.content1{
+  display:flex;
+  justify-content: flex-start;
+  padding:.5em;
+
+}
+.content2{
+  display:flex;
+  justify-content: center;
+  flex-wrap: nowrap;
+
+}
+.gallery {
+  max-width: 50%;
+  max-height: 50%;
+}
+.section-header-image{
+  background-image: url("./images/background-3.jpg");
+  background-size:cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  text-align: center;
+  color:white;
+  height: 20em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
