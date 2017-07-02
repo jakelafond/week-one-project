@@ -20,7 +20,7 @@ Input Border Bottom (Focus): #967343 */
 
 body {
   margin: 0px;
-  font-family: 'Roboto','Merriweather',serif,sans-serif;
+  font-family: 'Merriweather',serif,sans-serif;
   background: #F2F1E8;
   color: #131511;
   padding-top: 40px;
@@ -32,12 +32,18 @@ blockquote {
   font-weight: lighter;
   padding:1em;
 }
+a.selected{
+  color: #968772;
+}
+.wide-margin{
+  margin:1em 5em;
+}
 .wrapper{
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
   flex-direction:row;
-  margin: 10px;
+
 }
 .newsletter-wrapper{
   display: flex;
@@ -140,9 +146,16 @@ blockquote {
   display: flex;
   justify-content: center;
   align-items: center;
+  margin-bottom:1em;
 }
 .section-small{
-  width:60%;
+  width:55%;
+  margin-left: 0em 5em;
+}
+
+.plans{
+width:100%;
+margin: 1em 5em 2em 5em;
 }
 
 .birdhouse{
@@ -150,6 +163,12 @@ blockquote {
   max-height: 20%;
   float: left;
   margin-right:10px;
+}
+a{
+  color:#968772;
+}
+li>a{
+  color:#2B2F26;
 }
 aside{
   margin: 1em;
@@ -165,8 +184,11 @@ width: 20em;
 height:10em;
 }
 footer{
-  background-color: #131511;
+  background-color: #20241c;
   color:#F2F1E8;
+  padding: 1em;
+  font-family: 'Merriweather';
+  margin-top:2em;
 }
 input{
   width: 20em;
@@ -186,7 +208,27 @@ h1 {
   font-weight: normal;
   margin-bottom:0px;
 }
+h1.heading {
+  text-align: center;
+  font-size: 3.5em;
+  font-family: 'Merriweather';
+  font-weight: normal;
+  margin-bottom:.8em;
+}
 h3{
+  font-size: 1.5em;
+  font-family: 'Merriweather';
+  font-weight: lighter;
+  margin-top:0px;
+}
+.h3-center{
+  font-size: 4em;
+  font-family: 'Merriweather';
+  font-weight: lighter;
+  text-align: center;
+  margin-top:2em;
+}
+.heading>h3{
   text-align:center;
   font-size: 2em;
   font-family: 'Merriweather';
